@@ -2,8 +2,8 @@
 body {
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Centre on the y axis */
-    align-items: center; /* Centre on the x axis */
+    justify-content: center; /* Centre on the y axis when flex dir is column */
+    align-items: center; /* Centre on the x axis when flex dir is column */
     font-family:'Montserrat'; /* paragraph font */
     font-size: 14px;
     color: black;
@@ -11,6 +11,11 @@ body {
     margin: 0;
     height: 100vh;
     overflow:hidden;
+}
+
+h1 {
+    font-family: 'Fraunces';
+    font-weight: 700;
 }
 
 .centre-container{
@@ -23,7 +28,7 @@ body {
     border-radius: 16px;
 }
 
-img {
+.product-image {
     border-style: double;
     border-color: hsl(30, 38%, 92%);
     border-top-left-radius: 12px; /* To soften the left side border on the img */
