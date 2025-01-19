@@ -6,6 +6,7 @@ body {
     align-items: center; /* Centre on the x axis when flex dir is column */
     font-family:'Montserrat'; /* paragraph font */
     font-size: 14px;
+    font-weight: 500;
     color: black;
     background-color: hsl(30, 38%, 92%);
     margin: 0;
@@ -17,6 +18,7 @@ h1, #current-price {
     font-family: 'Fraunces';
     font-weight: 700;
     font-size:xx-large;
+    margin: 0; /*To override the margins given with h1 */
 }
 
 .centre-container{
@@ -39,7 +41,15 @@ h1, #current-price {
 }
 
 .product-information-container {
-    padding: 32px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+p {
+    line-height: 1.8;
+    margin: 0;
 }
 
 .pricing {
@@ -56,8 +66,25 @@ h1, #current-price {
     color: hsl(158, 36%, 37%);
 }
 
+.button-container {
+    display: flex;
+    justify-content: left;
+}
+
 button {
+    display: flex;
+    gap: 16px;
     background-color: hsl(158, 36%, 37%);
+    border-color: hsl(158, 36%, 37%);
+    border-style: hidden; /* Removed the button shadow effect */
+    color: white;
+    border-radius: 8px;
+    font-weight: 700;
+    padding-left: 27%;
+    padding-right: 27%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    align-items: center; /* This centres the Add to Cart text and aligns it with the icon */
 }
 
 .attribution { font-size: 11px; text-align: center; }
