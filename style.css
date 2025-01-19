@@ -1,6 +1,40 @@
 /* Quick html linking Test */
 body {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 50px;
-    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centre on the y axis */
+    align-items: center; /* Centre on the x axis */
+    font-family:'Montserrat'; /* paragraph font */
+    font-size: 14px;
+    color: black;
+    background-color: hsl(30, 38%, 92%);
+    margin: 0;
+    height: 100vh;
+    overflow:hidden;
 }
+
+.centre-container{
+    display: flex;
+    height: 900px;
+    width: 1200px;
+    background-color: white;
+    border-style: double;
+    border-color: hsl(30, 38%, 92%);
+    border-radius: 16px;
+}
+
+img {
+    border-style: double;
+    border-color: hsl(30, 38%, 92%);
+    border-top-left-radius: 12px; /* To soften the left side border on the img */
+    border-bottom-left-radius: 12px; /* To soften the left side border on the img */
+}
+
+.product-information-container {
+    padding: 4px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/* height: calc(100vh - 96.24px); /* full page - centre-container h */
