@@ -21,8 +21,8 @@ h1, #current-price {
 
 .centre-container{
     display: flex;
-    height: 900px;
-    width: 1200px;
+    height: 500px;
+    width: 700px;
     background-color: white;
     border-style: double;
     border-color: hsl(30, 38%, 92%);
@@ -34,14 +34,30 @@ h1, #current-price {
     border-color: hsl(30, 38%, 92%);
     border-top-left-radius: 12px; /* To soften the left side border on the img */
     border-bottom-left-radius: 12px; /* To soften the left side border on the img */
+    object-fit: cover; /* so it does not exceed the boundary of its parent container */
+    height: 100%;
 }
 
 .product-information-container {
-    padding: 16px;
+    padding: 32px;
+}
+
+.pricing {
+    display: flex;
+    gap: 25px;
 }
 
 #was-price {
     text-decoration: line-through;
+    align-self: center;
+}
+
+#current-price{
+    color: hsl(158, 36%, 37%);
+}
+
+button {
+    background-color: hsl(158, 36%, 37%);
 }
 
 .attribution { font-size: 11px; text-align: center; }
