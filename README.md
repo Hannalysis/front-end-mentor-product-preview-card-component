@@ -71,7 +71,7 @@ As this was my first real CSS challenge outside of the Landing Page project in T
 - Get rid of any unnecessary scrolling of the page, and ensure the content remains centered 
 - Add the remainder of the text elements, fonts and necessary containers inside product information container (right-facing container)
 - Pull out the pricing elements separately so they can be uniquely modified
-- Touch up with final styling and formatting changes; including that all the text, button and pricing inside the product information container is left aligned together
+- Touch up with final styling and formatting changes; ensure that all the text, button and pricing inside the product information container are left aligned together
 
 <h5><u>Update 1</u></h5>
 
