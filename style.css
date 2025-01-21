@@ -87,7 +87,10 @@ button {
     align-items: center; /* This centres the Add to Cart text and aligns it with the icon */
 }
 
+button:hover {
+    background-color: hsl(158, 40%, 18%);
+    cursor: pointer;
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
-
-/* height: calc(100vh - 96.24px); /* full page - centre-container h */
