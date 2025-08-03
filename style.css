@@ -93,3 +93,39 @@ button:hover {
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+@media (max-width: 767px) {
+    body {
+        overflow: auto;
+        width: 100%;
+    }
+    .centre-container {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        height: 100vh;
+        width: 100%;
+    }
+    .product-image-container {
+        display: flex;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+    .product-image {
+        max-width: 100%;
+        height: auto;
+        border-top-left-radius: 12px; 
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 12px;
+        display: block;
+    }
+    .product-information-container {
+        display: flex;
+        padding: 0px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+}
