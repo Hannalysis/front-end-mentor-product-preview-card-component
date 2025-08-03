@@ -18,8 +18,11 @@
 </head>
 <body>
 <div class = "centre-container">
-  <div class = "product-image-container">
-    <image class = "product-image" src = "images/image-product-desktop.jpg" alt = "Chanel Perfume">
+  <div class="product-image-container">
+    <picture>
+      <source srcset="images/image-product-mobile.jpg" media="(max-width: 767px)">
+      <img class="product-image" src="images/image-product-desktop.jpg" alt="Chanel Perfume">
+    </picture>
   </div>
   <div class = "product-information-container">
   <p>P E R F U M E</p>
