@@ -72,18 +72,17 @@ p {
 
 button {
     display: flex;
-    gap: 16px;
+    /* gap: 16px; */
     background-color: hsl(158, 36%, 37%);
     border-color: hsl(158, 36%, 37%);
     border-style: hidden; /* Removed the button shadow effect */
     color: white;
     border-radius: 8px;
     font-weight: 700;
-    padding-left: 27%;
-    padding-right: 27%;
-    padding-top: 4%;
-    padding-bottom: 4%;
-    align-items: center; /* This centres the Add to Cart text and aligns it with the icon */
+    padding: 4% 27%;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: space-evenly;
 }
 
 button:hover {
@@ -125,7 +124,13 @@ button:hover {
         padding: 0px;
         padding-left: 1rem;
         padding-right: 1rem;
-        align-items: center;
         justify-content: center;
+        gap: 0.75rem;
+    }
+    .button-container {
+        justify-content: center;
+    }
+    button {
+        flex-grow: 1;
     }
 }
