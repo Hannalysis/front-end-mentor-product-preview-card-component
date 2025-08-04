@@ -54,7 +54,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [github-pages](https://hannalysis.github.io/Front-End-Mentor-Product-preview-card-component/)
+- Live Site URL: [github-pages](https://hannalysis.github.io/front-end-mentor-product-preview-card-component/)
 
 <h1 style = "text-align: center;">My Process</h1>
 
