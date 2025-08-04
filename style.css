@@ -91,7 +91,7 @@ button:hover {
     cursor: pointer;
 }
 
-#perfume {
+#perfume, #was-price, #description {
     opacity: 60%;
 }
 
