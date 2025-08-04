@@ -1,3 +1,11 @@
+:root {
+    --cream: hsl(30, 38%, 92%);
+    --white: hsl(0, 0%, 100%);
+    --green: hsl(158, 36%, 37%);
+    --grey:  hsl(228, 12%, 48%);
+    --dark-blue: hsl(212, 21%, 14%);
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -6,8 +14,8 @@ body {
     font-family:'Montserrat'; /* paragraph font */
     font-size: 14px;
     font-weight: 500;
-    color: black;
-    background-color: hsl(30, 38%, 92%);
+    color: var(--dark-blue);
+    background-color: var(--cream);
     margin: 0;
     height: 100vh;
     overflow:hidden;
@@ -24,16 +32,16 @@ h1, #current-price {
     display: flex;
     height: 500px;
     width: 700px;
-    background-color: white;
+    background-color: var(--white);
     border-style: double;
-    border-color: hsl(30, 38%, 92%);
+    border-color: var(--cream);
     border-radius: 16px;
     margin-bottom: 0.5rem;
 }
 
 .product-image {
     border-style: double;
-    border-color: hsl(30, 38%, 92%);
+    border-color: var(--cream);
     border-top-left-radius: 12px; /* To soften the left side border on the img */
     border-bottom-left-radius: 12px; /* To soften the left side border on the img */
     object-fit: cover; 
@@ -63,7 +71,7 @@ p {
 }
 
 #current-price{
-    color: hsl(158, 36%, 37%);
+    color: var(--green);
 }
 
 .button-container {
@@ -73,11 +81,10 @@ p {
 
 button {
     display: flex;
-    /* gap: 16px; */
-    background-color: hsl(158, 36%, 37%);
-    border-color: hsl(158, 36%, 37%);
+    background-color: var(--green);
+    border-color: var(--green);
     border-style: hidden; /* Removed the button shadow effect */
-    color: white;
+    color: var(--white);
     border-radius: 8px;
     font-weight: 700;
     padding: 4% 27%;
@@ -87,12 +94,12 @@ button {
 }
 
 button:hover {
-    background-color: hsl(158, 40%, 18%);
+    background-color: var(--green);
     cursor: pointer;
 }
 
 #perfume, #was-price, #description {
-    opacity: 60%;
+    color: var(--grey);
 }
 
 .attribution { font-size: 11px; text-align: center; }
@@ -129,7 +136,7 @@ button:hover {
         padding: 1rem;
         justify-content: center;
         gap: 0.75rem;
-        background-color: white;
+        background-color: var(--white);
         border-bottom-left-radius: 12px;
         border-bottom-right-radius: 12px;
     }
