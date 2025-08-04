@@ -44,6 +44,12 @@ Users should be able to:
   
 ![](./images/My_Solution_for_active_states.JPG)
 
+<i>Screenshot for the mobile design:</i>  
+  
+<p align="center">
+  <img src="./images/My_Solution_for_mobile_design.jpg" alt="Screenshot for the mobile design" />
+</p>
+
 
 
 ### Links
@@ -110,7 +116,13 @@ The example below was my first practical use case of space-between. Once I reali
 
 ### Continued development
 
-I'd like to allocate some time to make the mobile view variant of this challenge.
+<h5><u>Update 2 - 2025/08/04</u></h5>
+
+- Mobile Implementation
+- Custom CSS properties
+- Minor styling fixes
+
+Next, I'd like to refactor this project so it's mobile first, which matches my approach for my other FE mentor challenges.
 
 <h2>Author</h2>
 
