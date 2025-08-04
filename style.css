@@ -35,7 +35,7 @@ h1, #current-price {
     border-color: hsl(30, 38%, 92%);
     border-top-left-radius: 12px; /* To soften the left side border on the img */
     border-bottom-left-radius: 12px; /* To soften the left side border on the img */
-    object-fit: cover; /* so it does not exceed the boundary of its parent container */
+    object-fit: cover; 
     height: 100%;
 }
 
@@ -112,8 +112,6 @@ button:hover {
         align-items: center;
         justify-content: center;
         width: 100%;
-        /* max-width: 325px;  */
-        overflow: hidden;
     }
     .product-image {
         max-width: 100%;
