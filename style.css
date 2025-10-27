@@ -153,7 +153,4 @@ button:hover {
         transform: scale(0.875);
         transform-origin: top; 
     }
-    .product-image-container {
-        max-height: 400px;
-    }
 }
