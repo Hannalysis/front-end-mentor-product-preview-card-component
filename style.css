@@ -98,6 +98,12 @@ button:hover {
     cursor: pointer;
 }
 
+#perfume {
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    opacity: 0.8;
+}
+
 #perfume, #was-price, #description {
     color: var(--grey);
 }
